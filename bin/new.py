@@ -1,6 +1,6 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 """
-Author : Ken Youens-Clark <kyclark@gmail.com>
+Author : Jeremy Oberbroeckling <joberbr@hotmail.com>
 Purpose: Python program to write a Python program
 """
 
@@ -93,7 +93,7 @@ def body(args: Args) -> str:
 
     today = str(date.today())
 
-    return f"""#!/usr/bin/env python3
+    return f"""#!/usr/bin/env python
 \"\"\"
 Author : {args.name}{' <' + args.email + '>' if args.email else ''}
 Date   : {today}
@@ -146,7 +146,7 @@ def get_args():
 
 # --------------------------------------------------
 def main():
-    \"\"\"Make a jazz noise here\"\"\"
+    \"\"\"Get the party started!!!\"\"\"
 
     args = get_args()
     str_arg = args.arg
