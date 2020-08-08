@@ -1,10 +1,10 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 """tests for picnic.py"""
 
 import os
 from subprocess import getoutput
 
-prg = './picnic.py'
+prg = 'picnic.py'
 
 
 # --------------------------------------------------

@@ -1,10 +1,10 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 """tests for jump.py"""
 
 import os
 from subprocess import getstatusoutput
 
-prg = './jump.py'
+prg = 'jump.py'
 
 
 # --------------------------------------------------
